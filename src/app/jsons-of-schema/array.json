@@ -32,7 +32,7 @@
     {
       "key": "comments",
       "add": "New",
-      "addButtonTitle": "Добавить Еще",
+      "addButtonTitle": "Add",
       "items": [
         "comments[].name",
         {
