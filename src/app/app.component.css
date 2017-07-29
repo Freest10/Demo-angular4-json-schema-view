@@ -1,0 +1,8 @@
+textarea, .defaultEditor{height:150px;width:500px;}
+#jsonSchemaBlock::after, #schemaOptions::after{content:'';display: block;clear:both;}
+.toLeft{float:left;}
+.toRight{float:right;}
+.jsonSchemaBlock{margin: 10px 10px 10px 70px;padding: 10px 50px 50px 50px;width: 550px;}
+.marginL20{margin-left:20px;}
+
+
