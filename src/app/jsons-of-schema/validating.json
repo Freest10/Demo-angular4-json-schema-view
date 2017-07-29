@@ -1,0 +1,38 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "last_name": {
+        "title": "Phone",
+        "type": "string"
+      }
+    },
+    "required": ["last_name"]
+  },
+  "form": [
+    {
+      "type": "section",
+      "htmlClass": "row",
+      "items": [
+        {
+          "key": "last_name",
+          "type": "string",
+          "minLength": 4,
+          "maxLength": 10,
+          "pattern": "[0-9]+",
+          "validateMessages":{
+            "required": "It is reqired field!",
+            "minLength": "Minlength of this field is 4 symbols!",
+            "maxLength": "Maxlength of this field is 10 symbols!",
+            "pattern": "No pattern, just numbers symbols!"
+          }
+        },
+        {
+          "key": "send",
+          "title": "Submit",
+          "type": "submit"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "favorite": {
+        "title": "Favorite",
+        "type": "object"
+      }
+    }
+  },
+  "form": [
+    {
+      "key": "favorite",
+      "type": "list",
+      "data": [
+        {"value":"first","name": "First List"},
+        {"value":"second","name": "Second List"}
+      ]
+    },
+    {
+      "type": "submit",
+      "style": "btn-default",
+      "title": "OK"
+    }
+  ]
+}
