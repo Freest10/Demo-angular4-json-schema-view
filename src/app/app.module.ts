@@ -4,7 +4,7 @@ import {JsonSchemaViewModule} from "angular4-json-schema-view"
 import { AppComponent } from './app.component';
 import { WidgetsService } from 'angular4-json-schema-view';
 import { JsonSchemaShareOptionsService } from 'angular4-json-schema-view';
-import { CustomInputComponent } from './custom_widgets/custom-input.component';
+//import { CustomInputComponent } from './custom_widgets/custom-input.component';
 import {  MdSelectModule, MdButtonModule, MdCheckboxModule} from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { AceEditorModule } from 'ng2-ace-editor';
