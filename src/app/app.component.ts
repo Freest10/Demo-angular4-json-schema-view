@@ -94,6 +94,7 @@ export class AppComponent implements OnInit {
   changedSelectSchema(event){
     let changedSchemaName = event.value;
     this.selectSchemaByName(changedSchemaName);
+    this.clearChangeDataAndSubmitted();
   }
 
 
@@ -138,7 +139,6 @@ export class AppComponent implements OnInit {
   fnctionClikc(){
     console.log('fnctionClikc');
   }
-
 
   generateForm(value){
     this.selectedSchema.value = JSON.parse(value);
