@@ -30,7 +30,7 @@
         {
           "key": "send",
           "title": "Submit",
-          "type": "button"
+          "type": "submit"
         }
       ]
     }

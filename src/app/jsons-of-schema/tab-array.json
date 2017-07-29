@@ -40,9 +40,6 @@
       "type": "tabarray",
       "addButtonTitle": "Add tab",
       "maxItems": 3,
-      "style": {
-        "remove": "btn-danger"
-      },
       "title": "{{'Tab'+$index }}",
       "items": [
         "comments[].name",
