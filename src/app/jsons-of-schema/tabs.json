@@ -1,0 +1,48 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "email": {
+        "title": "Email",
+        "type": "string",
+        "pattern": "^\\S+@\\S+$"
+      }
+    }
+  },
+  "form": [
+    {
+      "type": "section",
+      "htmlClass": "toolbarButtonsMarginLeft",
+      "items": [
+        {
+          "type": "tabs",
+          "key" : "tabContent",
+          "tabs": [
+            {
+              "title": "Man",
+              "items": [
+                {
+                  "type": "string",
+                  "key": "name"
+                }
+              ]
+            },
+            {
+              "title": "Woman",
+              "items": [
+                {
+                  "type": "string",
+                  "key": "email"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

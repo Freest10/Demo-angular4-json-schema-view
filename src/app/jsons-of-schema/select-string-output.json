@@ -1,0 +1,32 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "favorite": {
+        "title": "Favorite",
+        "type": "string",
+        "enum": [
+          "1",
+          "undefined",
+          "null",
+          "NaN"
+        ]
+      }
+    }
+  },
+  "form": [
+    {
+      "key": "favorite",
+      "type": "select",
+      "noEmptyOption": true,
+      "titleMap": {
+        "1": "First"
+      }
+    },
+    {
+      "type": "submit",
+      "style": "btn-default",
+      "title": "OK"
+    }
+  ]
+}

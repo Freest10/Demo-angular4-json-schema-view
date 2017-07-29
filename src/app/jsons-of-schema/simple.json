@@ -1,0 +1,22 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "first_name": {
+        "title": "Name",
+        "type": "string"
+      }
+    }
+  },
+  "form": [
+    {
+      "key": "first_name",
+      "type": "string"
+    },
+    {
+      "key": "send",
+      "title": "Submit",
+      "type": "submit"
+    }
+  ]
+}
