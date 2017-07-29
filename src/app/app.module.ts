@@ -25,7 +25,7 @@ import { AceEditorModule } from 'ng2-ace-editor';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents: [CustomInputComponent]
+  //entryComponents: [CustomInputComponent]
 })
 export class AppModule {
 
