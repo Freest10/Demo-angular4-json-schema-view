@@ -12,7 +12,7 @@ import { AceEditorModule } from 'ng2-ace-editor';
 @NgModule({
   declarations: [
     AppComponent,
-    CustomInputComponent
+   // CustomInputComponent
   ],
   imports: [
     BrowserModule,
