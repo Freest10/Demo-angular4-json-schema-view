@@ -62,6 +62,8 @@ export class AppComponent implements OnInit {
 
   selectedSchema: any;
 
+  schemaEditorValue: string;
+
   aceEditorOptions: any = {
     highlightActiveLine: true,
     maxLines: 1000,
@@ -81,6 +83,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit(){
     this.selectedSchema = this.schemas[0];
+    this.updateschemaEditorValue(this.selectedSchema.value);
+  }
+
+  updateschemaEditorValue(value){
+    let selectedValue =  Object.assign({}, this.selectedSchema.value);
+    this.schemaEditorValue = JSON.stringify(selectedValue, null, '\t');
   }
 
   changedSelectSchema(event){
@@ -94,6 +102,7 @@ export class AppComponent implements OnInit {
     this.schemas.forEach((schema)=>{
       if(schema.name == changedSchemaName){
         this.selectedSchema = Object.assign({},schema);
+        this.updateschemaEditorValue(this.selectedSchema.value);
         return false;
       }
     })
@@ -130,11 +139,6 @@ export class AppComponent implements OnInit {
     console.log('fnctionClikc');
   }
 
-  getValueToTextEditor(){
-    if(this.selectedSchema){
-      return  JSON.stringify(this.selectedSchema.value, null, '\t');
-    }
-  }
 
   generateForm(value){
     this.selectedSchema.value = JSON.parse(value);
