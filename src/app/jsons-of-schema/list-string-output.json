@@ -18,6 +18,11 @@
       ]
     },
     {
+      "title": "Reset",
+      "type": "button",
+      "reset": true
+    },
+    {
       "type": "submit",
       "style": "btn-default",
       "title": "OK"

@@ -54,6 +54,11 @@
       "type": "submit",
       "style": "btn-default",
       "title": "OK"
+    },
+    {
+      "title": "Reset",
+      "type": "button",
+      "reset": true
     }
   ]
 }

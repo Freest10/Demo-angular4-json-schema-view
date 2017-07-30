@@ -50,6 +50,11 @@
       ]
     },
     {
+      "title": "Reset",
+      "type": "button",
+      "reset": true
+    },
+    {
       "type": "submit",
       "style": "btn-info",
       "title": "OK"

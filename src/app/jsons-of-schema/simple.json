@@ -17,6 +17,11 @@
       "key": "send",
       "title": "Submit",
       "type": "submit"
+    },
+    {
+      "title": "Reset",
+      "type": "button",
+      "reset": true
     }
   ]
 }

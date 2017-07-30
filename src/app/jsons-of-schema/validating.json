@@ -28,6 +28,11 @@
           }
         },
         {
+          "title": "Reset",
+          "type": "button",
+          "reset": true
+        },
+        {
           "key": "send",
           "title": "Submit",
           "type": "submit"

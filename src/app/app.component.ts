@@ -77,7 +77,7 @@ export class AppComponent implements OnInit {
   }
 
   // model: any = {
-  //   "last_name": "Имзя"
+  //   "last_name": "Test name"
   // };
   constructor(){}
 
