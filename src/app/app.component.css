@@ -4,5 +4,10 @@ textarea, .defaultEditor{height:150px;width:500px;}
 .toRight{float:right;}
 .jsonSchemaBlock{margin: 10px 10px 10px 70px;padding: 10px 50px 50px 50px;width: 550px;}
 .marginL20{margin-left:20px;}
+#logo{float:left;margin: -17px 25px 0 0;}
+#logo > img{height:70px;}
+h1{float:left;margin-top: 0;}
+header{margin-bottom: 35px;}
+header::after{content:'';display:block;clear:both;}
 
 
